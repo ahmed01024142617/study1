@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+    direction: rtl;
+}
+.card {
+    text-align: center;
+    border: 2px solid red;
+    width: 380px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px black;
+    transition: 0.8s ;
+    height: auto;
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    transition: 0,5s;
+    box-sizing: border-box;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+p{
+    padding: 20px;
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 25px red;
+    height: 50px;
+    margin: 20px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h2{
+    background-color: red;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+
+}
